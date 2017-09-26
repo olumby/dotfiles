@@ -1,0 +1,39 @@
+#!/bin/bash
+
+echo '++++++++++++++++++++++++++++++'
+echo '++++++++++++++++++++++++++++++'
+
+echo 'Sublime Text Set Up'
+echo '------------------'
+
+echo 'Open Sublime Text.'
+echo 'From the "Tools" menu select "Install Package Control..".'
+echo 'Quit Sublime Text.'
+echo '------------------'
+
+read -p "Press enter to continue"
+
+echo '------------------'
+echo 'Copying Package Control settings.'
+cp -r $HOME/.dotfiles/misc/sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/ 2> /dev/null
+echo 'Open Sublime Text.'
+echo 'Wait for Packages to Install..'
+echo '------------------'
+
+read -p "Press enter to continue"
+
+echo '------------------'
+echo 'Copying remaining settings.'
+cp -r $HOME/.dotfiles/misc/sublime/Markdown\ \(Standard\).sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/ 2> /dev/null
+cp -r $HOME/.dotfiles/misc/sublime/Markdown.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/ 2> /dev/null
+cp -r $HOME/.dotfiles/misc/sublime/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/ 2> /dev/null
+cp -r $HOME/.dotfiles/misc/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/ 2> /dev/null
+
+
+echo '++++++++++++++++++++++++++++++'
+echo '++++++++++++++++++++++++++++++'
+
+echo 'all done'
+
+echo '++++++++++++++++++++++++++++++'
+echo '++++++++++++++++++++++++++++++'

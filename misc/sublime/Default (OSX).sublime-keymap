@@ -1,0 +1,18 @@
+[
+    // Recent files key swap
+    { "keys": ["super+p"], "command": "slurp_find_string" },
+    { "keys": ["super+e"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+
+    // PHP Companion
+    { "keys": ["f8"], "command": "insert_php_constructor_property" },
+    { "keys": ["f9"], "command": "expand_fqcn" },
+    { "keys": ["f10"], "command": "find_use" },
+
+    {
+        "button": "button1", 
+        "count": 1, 
+        "modifiers": ["ctrl"],
+        "press_command": "drag_select",
+        "command": "goto_definition"
+    }
+]

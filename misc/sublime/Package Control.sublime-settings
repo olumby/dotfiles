@@ -1,0 +1,34 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Base16 Color Schemes",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"DocBlockr",
+		"EJS",
+		"Fix Mac Path",
+		"GitGutter",
+		"HTML Snippets",
+		"Laravel 5 Snippets",
+		"Laravel Blade Highlighter",
+		"LESS",
+		"MarkdownEditing",
+		"Package Control",
+		"PHP Companion",
+		"PHP Getters and Setters",
+		"Phpcs",
+		"Sass",
+		"SCSS",
+		"SQF Language",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"Swift",
+		"Vue Syntax Highlight",
+		"Vuejs Snippets"
+	]
+}
