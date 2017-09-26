@@ -1,0 +1,67 @@
+#!/bin/bash
+
+echo 'install iTerm2'
+echo '------------'
+brew cask install iterm2
+
+echo 'install Dropbox'
+echo '------------'
+brew cask install dropbox
+
+echo 'install Chrome'
+echo '------------'
+brew cask install google-chrome
+
+echo 'install Firefox'
+echo '------------'
+brew cask install firefox
+
+echo 'install Sequel Pro'
+echo '------------'
+brew cask install sequel-pro
+
+echo 'install Spectacle'
+echo '------------'
+brew cask install spectacle
+
+echo 'install Sublime'
+echo '------------'
+brew cask install sublime-text
+
+echo 'install VLC'
+echo '------------'
+brew cask install vlc
+
+echo 'install LICEcap'
+echo '------------'
+brew cask install licecap
+
+echo 'install Skype'
+echo '------------'
+brew cask install skype
+
+echo 'install Transmission'
+echo '------------'
+brew cask install transmission
+
+echo 'install Figma'
+echo '------------'
+brew cask install figma
+
+
+echo '++++++++++++++++++++++++++++++'
+echo '++++++++++++++++++++++++++++++'
+echo 'all done'
+echo 'Things to install from the AppStore'
+
+echo 'Slack'
+echo 'The Unarchiver'
+echo '1Password'
+echo 'EasyFind'
+echo 'Keynote'
+echo 'Pages'
+echo 'Numbers'
+echo 'Bear'
+
+echo '++++++++++++++++++++++++++++++'
+echo '++++++++++++++++++++++++++++++'
