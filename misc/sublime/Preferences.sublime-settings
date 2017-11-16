@@ -1,5 +1,7 @@
 {
 	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"close_windows_when_empty": true,
 	"color_scheme": "Packages/User/SublimeLinter/base16-ocean (SL).tmTheme",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
@@ -20,6 +22,7 @@
 	"font_size": 12.0,
 	"gutter": true,
 	"highlight_modified_tabs": false,
+	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Markdown",
@@ -41,7 +44,11 @@
 	"phpunit-sublime-terminal": "iTerm",
 	"scroll_past_end": true,
 	"show_panel_on_build": false,
-	"theme": "Adaptive.sublime-theme",
+	"theme": "Agila.sublime-theme",
+	"theme_agila_camouflage": true,
+	"theme_agila_compact_sidebar": true,
+	"theme_agila_sidebar_selected_entry_white": true,
+	"theme_agila_sidebar_small": true,
 	"translate_tabs_to_spaces": true,
 	"word_wrap": false
 }
