@@ -32,6 +32,9 @@ ln -s $HOME/.dotfiles/shell/.yarnrc $HOME/.yarnrc
 rm $HOME/.vim
 ln -s $HOME/.dotfiles/shell/.vim $HOME/.vim
 
+rm $HOME/.aliases
+ln -s $HOME/.dotfiles/shell/.aliases $HOME/.aliases
+
 #fix missing font characters (see https://github.com/robbyrussell/oh-my-zsh/issues/1906)
 cd ~/.oh-my-zsh/themes/
 git checkout d6a36b1 agnoster.zsh-theme
